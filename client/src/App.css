@@ -1,0 +1,486 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section1 .logo img {
+  margin-top: 6%;
+  margin-left: 43%;
+}
+.section1 .progessbar {
+  margin-top: 2%;
+  margin-left: 24%;
+}
+.section1 .progessbar .Line {
+  position: relative;
+  top: -47px;
+  width: 9%;
+}
+.section1 .step {
+  display: flex;
+  margin-left: 15.5%;
+}
+.section1 .step span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 10.1%;
+}
+.section1 .step .customcolor {
+  color: #026cce;
+}
+.section1 .stepheading {
+  margin-top: 1%;
+  display: flex;
+  margin-left: 15.5%;
+}
+.section1 .stepheading span {
+  font-size: 16px;
+  color: #000;
+  margin-left: 7%;
+  text-align: center;
+}
+.section1 .stepheading #align {
+  position: relative;
+  left: 20px;
+}
+.section1 .stepheading .customcolor {
+  color: #026cce;
+}
+.section1 .accoutdetail {
+  background-color: #c5dcfa;
+  text-align: center;
+  height: 40px;
+  width: 53%;
+  margin: auto;
+  /* margin-left: 21%; */
+  margin-top: 4%;
+}
+.section1 .accoutdetail span {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000;
+  position: relative;
+  top: 23%;
+}
+.section1 .paragraph {
+  width: 53%;
+  margin: auto;
+  margin-top: 1%;
+}
+.section1 .paragraph p {
+  font-size: 16px;
+  color: #000;
+  margin: auto;
+  width: 100%;
+  padding-right: 2%;
+  padding-left: 2%;
+  text-align: center;
+}
+
+.section2 {
+  display: flex;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.section2 .avatar span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 28%;
+}
+.section2 .inputfields {
+  width: 52%;
+}
+.section2 .inputfields .inputsection1 {
+  display: flex;
+}
+.section2 .inputfields .inputsection1 div {
+  width: 50%;
+  margin-left: 10%;
+}
+.section2 .inputfields .inputsection1 div label {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section2 .inputfields .inputsection1 div input[type="text"] {
+  width: 100%;
+  height: 37px;
+  padding-left: 8px;
+  border-radius: 10px;
+  font-size: 19px;
+  border: 1px solid #c7c7c7;
+  outline: none;
+}
+.section2 .inputfields .inputsection1 div input[type="email"] {
+  width: 100%;
+  height: 37px;
+  padding-left: 8px;
+  border-radius: 10px;
+  font-size: 19px;
+  border: 1px solid #c7c7c7;
+  outline: none;
+}
+.section2 .inputfields .inputsection2 {
+  display: flex;
+}
+
+.section2 .inputfields .inputsection2 div {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.section2 .inputfields .inputsection2 div label {
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: bold;
+}
+.section2 .inputfields .inputsection2 div input[type="password"] {
+  width: 100%;
+  height: 37px;
+  padding-left: 8px;
+  font-size: 19px;
+  border-radius: 10px;
+  border: 1px solid #c7c7c7;
+  outline: none;
+}
+.save {
+  background-color: #c5dcfa;
+  font-size: 16px;
+  margin-top: 3%;
+  color: #0a3977;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 63%;
+  cursor: pointer;
+  border: 1px solid #c5dcfa;
+}
+#img {
+  position: relative;
+  top: 6px;
+}
+
+@media screen and (max-width: 992px) {
+  .section1 .logo img {
+    margin-top: 6%;
+    margin-left: 36%;
+  }
+  .section1 .progessbar {
+    margin-top: 2%;
+    width: 50%;
+    margin: auto;
+  }
+  .section1 .progessbar .progressstep {
+    width: 38px;
+    margin-top: 2%;
+  }
+  .section1 .progessbar .Line {
+    position: relative;
+    top: -23px;
+    width: 9%;
+  }
+  .section1 .step span {
+    font-size: 8px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 9%;
+  }
+  .section1 .stepheading {
+    margin-top: 1%;
+    display: flex;
+    margin-left: 17%;
+  }
+  .section1 .stepheading span {
+    font-size: 6px;
+    color: #000;
+    margin-left: 7%;
+    text-align: center;
+  }
+  .section1 .stepheading #align {
+    position: relative;
+    left: 1px;
+  }
+  .section1 .accoutdetail {
+    background-color: #c5dcfa;
+    text-align: center;
+    height: 40px;
+    width: 50%;
+    margin: auto;
+    margin-top: 4%;
+  }
+
+  .section1 .paragraph {
+    width: 50%;
+    margin: auto;
+  }
+
+  .section2 {
+    margin-top: 4%;
+  }
+  .section2 .avatar img {
+    width: 60px;
+    height: 60px;
+  }
+  .section2 .avatar span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20%;
+  }
+  .section2 .inputfields {
+    width: 52%;
+  }
+  .section2 .inputfields .inputsection1 {
+    display: flex;
+  }
+  .section2 .inputfields .inputsection1 div {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .section2 .inputfields .inputsection1 div label {
+    color: #c7c7c7;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .section2 .inputfields .inputsection1 div input[type="text"] {
+    width: 100%;
+    height: 19px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+  }
+  .section2 .inputfields .inputsection2 {
+    display: flex;
+  }
+
+  .section2 .inputfields .inputsection2 div {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  .section2 .inputfields .inputsection2 div label {
+    color: #c7c7c7;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .section2 .inputfields .inputsection2 div input[type="text"] {
+    width: 100%;
+    height: 19px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+  }
+  .save {
+    background-color: #c5dcfa;
+    font-size: 12px;
+    margin-top: 6%;
+    color: #0a3977;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 57%;
+    border: 1px solid #c5dcfa;
+  }
+  #img {
+    position: relative;
+    top: 6px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .section1 .logo img {
+    margin-top: 6%;
+    margin-left: 26%;
+  }
+  .section1 .progessbar {
+    margin-top: 2%;
+    width: 80%;
+    margin: auto;
+  }
+  .section1 .progessbar .progressstep {
+    width: 30px;
+    margin-top: 2%;
+  }
+  .section1 .progessbar .Line {
+    position: relative;
+    top: -18px;
+    width: 9%;
+  }
+  .section1 .step {
+    margin-left: -1%;
+  }
+  .section1 .step span {
+    font-size: 8px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 10%;
+  }
+  .section1 .stepheading {
+    margin-top: 1%;
+    display: flex;
+    margin-left: 0%;
+  }
+  .section1 .stepheading span {
+    font-size: 6px;
+    color: #000;
+    margin-left: 6%;
+    text-align: center;
+  }
+  .section1 .stepheading #align {
+    position: relative;
+    left: 10px;
+  }
+  .section1 .accoutdetail {
+    background-color: #c5dcfa;
+    text-align: center;
+    height: 40px;
+    width: 65%;
+    margin: auto;
+    margin-top: 4%;
+  }
+
+  .section1 .paragraph {
+    width: 65%;
+    padding-top: 7px;
+    margin: auto;
+  }
+  .section1 .paragraph p {
+    font-size: 11px;
+    color: #000;
+    margin: auto;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+  }
+
+  .section2 {
+    margin-top: 6%;
+  }
+  .section2 .avatar img {
+    width: 60px;
+    height: 60px;
+  }
+  .section2 .avatar span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin-left: 20%;
+  }
+  .section2 .inputfields {
+    width: 52%;
+  }
+  .section2 .inputfields .inputsection1 {
+    display: flex;
+  }
+  .section2 .inputfields .inputsection1 div {
+    width: 50%;
+    margin-left: 10%;
+  }
+  .section2 .inputfields .inputsection1 div label {
+    color: #c7c7c7;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .section2 .inputfields .inputsection1 div input[type="text"] {
+    width: 100%;
+    height: 19px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+  }
+  .section2 .inputfields .inputsection2 {
+    display: flex;
+  }
+
+  .section2 .inputfields .inputsection2 div {
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 3%;
+  }
+  .section2 .inputfields .inputsection2 div label {
+    color: #c7c7c7;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .section2 .inputfields .inputsection2 div input[type="text"] {
+    width: 100%;
+    height: 19px;
+    border-radius: 10px;
+    border: 1px solid #c7c7c7;
+    outline: none;
+  }
+  .save {
+    background-color: #c5dcfa;
+    font-size: 12px;
+    margin-top: 10%;
+    color: #0a3977;
+    font-weight: bold;
+    padding-bottom: -7px;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 63%;
+    border: 1px solid #c5dcfa;
+  }
+  #img {
+    position: relative;
+    top: 6px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .section1 .accoutdetail span {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    top: 23%;
+  }
+  .section1 .stepheading {
+    margin-top: 1%;
+    display: flex;
+    margin-left: 0%;
+  }
+  .section1 .paragraph p {
+    font-size: 11px;
+    color: #000;
+    margin: auto;
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .section1 .step span {
+    margin-left: 11%;
+  }
+  .section1 .stepheading span {
+    margin-left: 6%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .section1 .step span {
+    margin-left: 11%;
+  }
+  .section1 .stepheading span {
+    margin-left: 6%;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  .section1 .step span {
+    margin-left: 10%;
+  }
+  .section1 .stepheading span {
+    margin-left: 6%;
+  }
+}
+@media screen and (min-width: 1700px) and (max-width: 2100px) {
+  .section1 .stepheading span {
+    margin-left: 7%;
+  }
+}
